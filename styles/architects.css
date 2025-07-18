@@ -106,9 +106,8 @@ main>section {
     gap: 130px;
     align-items: center;
 }
-
-.feature-container {
-    max-width: 686px;
+.featured-architect img{
+    width: 100%;
 }
 
 .feature-container h3 {
@@ -116,53 +115,86 @@ main>section {
     font-weight: 700px;
 }
 
-.card-conatiner { 
+
+.card-conatiner {
     border-radius: 8px;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
     background: rgb(255, 255, 255);
     margin-top: 10px;
     border: .2px solid rgb(255, 255, 255);
 }
-.featured-architect img{
-    width: 100%;
-}
-#experience-badge{
+
+#experience-badge {
     text-align: center;
     margin-top: -60px;
     margin-left: -100px;
 
 }
-#experience-year{
+
+#experience-year {
     font-size: 2rem;
 }
-.icon-container{
+
+.icon-container {
     text-align: center;
     align-items: center;
-    gap:100px;
+    gap:40px;
+    width:100;
 }
-.icon{
+
+.icon {
     background: rgb(255, 255, 255);
-    border: 2px solid beige;
+    border:2px solid beige;
     margin: 50px;
-    padding: 15px;
+    padding:15px;
     border-radius: 8px;
-    
+
 }
-.icons h1{
-    font-size: 2rem;
+
+.icons h1 {
+    font-size:2rem;
 }
-.sponsors{
+
+.sponsors {
     text-align: center;
 }
+
 .s-grid{
-    margin-top: 30px;
-    margin-bottom: 30px;
-    display: grid;
-    grid-template-columns: repeat(5,1fr);
+    justify-content: space-around;
 }
-.reserved{
-    background-color:rgb(255, 244, 231);
+.s-grid img{
+    margin: 20px;
+    filter: grayscale(100%);
+}
+
+.reserved {
+    background-color: rgb(255, 244, 231);
     padding: 20px;
     margin-left: 100px;
-    margin-right: 150px;
+    margin-right: 100px;
+    text-align: center;
+}
+
+@media screen and (max-width: 576px) {
+
+    .navbar,
+    .nav-links,
+    .feature,
+    .teams,
+    .icon-container,.s-grid{
+        flex-direction: column;
+    }
+.s-grid img{
+    margin: 30px;
+}
+.featured-architect img{
+    width: 80%;
+}
+
+}
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    .icon-container{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
 }
