@@ -190,6 +190,9 @@ main>section {
 .featured-architect img{
     width: 80%;
 }
+.team-container{
+    margin-left: 60px;
+}
 
 }
 @media screen and (min-width: 576px) and (max-width: 992px) {
