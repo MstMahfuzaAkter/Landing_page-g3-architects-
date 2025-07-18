@@ -1,0 +1,168 @@
+.work-sans-font {
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header {
+    background-color: rgba(255, 144, 14, 0.1);
+}
+
+.display-flex {
+    display: flex;
+}
+
+.navlink {
+    list-style: none;
+}
+
+.nav-link {
+    text-decoration: none;
+}
+
+.text-gray {
+    color: rgb(66, 66, 66);
+}
+
+.brand {
+    color: rgb(19, 19, 19);
+    font-weight: 700px;
+    font-size: 2rem;
+}
+
+.navbar {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-weight: 30px;
+}
+
+.nav-item {
+    list-style: none;
+    margin-right: 30px;
+}
+
+.banner-container {
+    text-align: center;
+    max-width: 850px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.banner-container h1 {
+    font-size: 5rem;
+    font-weight: 700px;
+}
+
+.primary-color {
+    all: unset;
+    background-color: rgb(255, 144, 14);
+    color: rgb(255, 255, 255);
+    padding: 20px 25px;
+    font-weight: 3rem;
+    border-radius: 9px;
+}
+
+.navbar,
+.banner {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.banner img {
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+main {
+    max-width: 1340px;
+    margin: 0 auto;
+    background: rgb(255, 255, 255);
+}
+
+main>section {
+    margin-top: 40px;
+}
+
+.teams {
+    align-items: center;
+    gap: 0px;
+}
+
+.teams h1 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.features {
+    color: rgb(255, 144, 14);
+}
+
+.feature {
+    gap: 130px;
+    align-items: center;
+}
+
+.feature-container {
+    max-width: 686px;
+}
+
+.feature-container h3 {
+    font-size: 3rem;
+    font-weight: 700px;
+}
+
+.card-conatiner { 
+    border-radius: 8px;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    background: rgb(255, 255, 255);
+    margin-top: 10px;
+    border: .2px solid rgb(255, 255, 255);
+}
+.featured-architect img{
+    width: 100%;
+}
+#experience-badge{
+    text-align: center;
+    margin-top: -60px;
+    margin-left: -100px;
+
+}
+#experience-year{
+    font-size: 2rem;
+}
+.icon-container{
+    text-align: center;
+    align-items: center;
+    gap:100px;
+}
+.icon{
+    background: rgb(255, 255, 255);
+    border: 2px solid beige;
+    margin: 50px;
+    padding: 15px;
+    border-radius: 8px;
+    
+}
+.icons h1{
+    font-size: 2rem;
+}
+.sponsors{
+    text-align: center;
+}
+.s-grid{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+.reserved{
+    background-color:rgb(255, 244, 231);
+    padding: 20px;
+    margin-left: 100px;
+    margin-right: 150px;
+}
